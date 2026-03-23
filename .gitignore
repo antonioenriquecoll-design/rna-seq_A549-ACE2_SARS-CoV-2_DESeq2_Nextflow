@@ -1,0 +1,17 @@
+# Nextflow
+work/
+.nextflow/
+.nextflow.*
+.report.html
+.timeline.html
+.trace.txt
+
+# Data & refs grandes
+data/
+ref/
+salmon_index/
+
+# SO y editor
+.DS_Store
+*.log
+*.tmp

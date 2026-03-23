@@ -1,0 +1,15 @@
+name: rna_seq_nf
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.11
+  - nextflow
+  - fastqc
+  - cutadapt
+  - salmon
+  - r-base>=4.3
+  - bioconductor-deseq2
+  - r-ggplot2
+  - r-pheatmap
+  - r-ggrepel
+  - r-optparse
+  - coreutils
