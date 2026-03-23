@@ -89,29 +89,7 @@ Los resultados generados por Nextflow se guardarán en:
 results/
 
 ------------------------------------------------------------
-6. ESTRUCTURA DEL REPOSITORIO
-------------------------------------------------------------
-
-El repositorio debe tener esta estructura:
-
-.
-├── README.md                 (este archivo)
-├── main.nf                   (workflow Nextflow)
-├── run_deseq2.R              (script R para DESeq2)
-├── nextflow.config           (configuración adicional)
-├── envs/
-│   └── environment.yml       (entorno Conda)
-├── data/
-│   └── README.txt            (explica dónde colocar los FASTQ)
-├── ref/
-│   ├── README.txt            (explica cómo descargar las referencias)
-│   ├── Homo_sapiens.GRCh38.cdna.all.fa.gz
-│   └── Homo_sapiens.GRCh38.109.gtf.gz
-├── results/                  (resultados obtenidos en Galaxy)
-└── plots/                    (todas las figuras finales)
-
-------------------------------------------------------------
-7. AUTORÍA
+6. AUTORÍA
 ------------------------------------------------------------
 
 Antonio Enrique Coll Meseguer
